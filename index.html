@@ -16,7 +16,7 @@
 <body>
   <header>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-sm bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-sm fixed-top bg-body-tertiary" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="./imagenes_integrador_front/codoacodo.png" alt="Codo a Codo" width="60" height="50"
@@ -43,7 +43,7 @@
               <a class="nav-link" href="#">Los oradores</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" style="color: green;" href="#">Comprar tickets</a>
+              <a class="nav-link" style="color: green;" href="tickets.html" target="_blank">Comprar tickets</a>
             </li>
 
           </ul>
@@ -67,8 +67,8 @@
           neque maiores dolorem unde? Aut dolorum quod excepturi fugit.
         </p>
 
-        <button type="button" class="btn btn-success">Comprar Tickets</button>
-        <button type="button" class="btn btn-dark">Quiero ser orador</button>
+        <a type="button" class="btn btn-success" href="tickets.html" target="_blank">Comprar Tickets</button>
+        <a type="button" class="btn btn-dark" id="orador">Quiero ser orador</button>
       </div>
 
     </section>
@@ -284,7 +284,7 @@
             </div>
       
           </footer>
-
+          
 </body>
 
 </html>
